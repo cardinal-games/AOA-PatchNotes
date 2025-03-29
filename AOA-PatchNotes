@@ -1,6 +1,71 @@
 # AOA-PatchNotes
-# Build 0.1.65 (December 2024)
+# Build 0.1.87 (March 2025)
 
+# New Features:
+- Implemented Quest GPS System with visual pillars for challenging navigation areas.
+- Added Skinning skill (v1) accessible from the Hunter NPC (currently limited to foxes and hares).
+- Introduced the Firemaking skill for creating rest areas with health replenishment and buff effects.
+- Expanded Emotions skill with seamless dance and stance transitions, allowing sitting/leaning on objects.
+- New Torch system (WIP) as equippable weapons with functional lighting (animations still placeholder).
+- Completely overhauled Dialogue System with improved UI, camera panning, and keyboard/mouse integration.
+- Added NPC Visibility Controller that shows/hides NPCs based on quest progression status.
+
+# Combat & Equipment:
+- Complete Sword & Shield rework with improved parrying, stance system, follow-up attacks, and guard mechanics.
+- Added three tiers of Adventurer armor sets (Light/Medium/Heavy) integrated into the main questline.
+- Enhanced Lock-On Targeting with more visible indicators and ability to swap targets while in combat.
+- Improved animation transitions for smoother combat flow, eliminating pauses between attack and stance.
+- All enemies now properly face players during combat for more accurate targeting.
+- Added proper collision for all mobs, preventing player walk-through and enabling push mechanics.
+- Implemented "Mob Solver" for smoother enemy appearance when approaching.
+
+# UI Improvements:
+- Complete UI backend overhaul using master template system for consistent interfaces across all areas.
+- Added inventory search functionality and item grouping options (weapons, armor, consumables, etc.).
+- Introduced gamma slider to game settings for players with darker monitors.
+- Reworked keybinds based on tester feedback with numerous new options.
+
+# Dungeons & Areas:
+- Rift: Temple of the East fully finalized with all puzzles functional and quest completable.
+- Dungeon: Silirad Wolf Den reworked with visual refresh, new mob spawns, and questline integration.
+- Instance: Velledor Spring Cave expanded with mobs, side quests, two boss monsters, and secret room.
+- Implemented day/night mob spawn system with certain creatures appearing only at specific times.
+- Added Velledor area access after completing Spring Cave, with planned direct teleport functionality.
+
+# Controls & Interaction:
+- Streamlined world interaction system - press F to interact with nearly everything (not just NPCs).
+- Changed from hold-to-interact to simple tap for most actions.
+- Loot system refined: press F for selective loot window, hold F for full loot.
+- Standardized swimming controls to match overworld navigation (swim in the direction you're looking).
+- Fixed issue where players could get stuck in rocks or tight structures.
+
+# Gameplay Improvements:
+- Finalized tattoo system for alpha stage with parity between male and female versions.
+- Fixed and rebalanced all loot tables, ensuring proper item drops for quests.
+- Enhanced drop rates across the board, making certain rare items more accessible.
+- Expanded questline including side quests in Velledor Spring Cave and progression toward Velledor.
+
+# Visuals & Audio:
+- Improved night and daytime visuals with enhanced fog rendering.
+- Addressed jarring audio issues, disappearing sounds, and loop problems.
+- Replaced most night sounds with less intrusive versions.
+- Enhanced weather effects and visual transitions.
+
+# Performance & Optimization:
+- Continued daily optimization and bug fixing (20 version iterations since December).
+- Fixed major slowdown related to NPC interactions, boosting FPS by 20-25 in mob-heavy areas.
+- Game launcher finalized with proper multi-threading support for fast downloads and patching.
+- Further refinements to controller responsiveness and general performance.
+
+# Known Issues:
+- ETA accuracy issues for users with very high internet speeds when downloading via launcher.
+- Potential bugs with the NPC Visibility Controller still being investigated.
+- Secret room in Velledor Spring Cave currently lacks content (planned for future update).
+
+
+
+
+# Build 0.1.65 (December 2024)
 
 # New Features:
 - Introduced a beacon show function for easier navigation.
